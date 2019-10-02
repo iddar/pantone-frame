@@ -1,0 +1,28 @@
+{
+  "name": "pantone-frame",
+  "version": "1.0.0",
+  "description": "create nice picture frame.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./ --out-dir docs"
+  },
+  "keywords": [
+    "color",
+    "pantone",
+    "image"
+  ],
+  "author": "iddar olivares <iddar@dbug.mx>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.6.2",
+    "html2canvas": "^1.0.0-rc.5",
+    "node-vibrant": "^3.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "cssnano": "^4.1.10"
+  }
+}

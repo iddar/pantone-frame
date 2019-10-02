@@ -1,0 +1,101 @@
+body {
+    background-color: rgba(42, 42, 46, 1);
+    font-family: 'Arimo',Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2, h3, p, img {
+    margin: 0;
+}
+
+.card {
+    margin: 20px;
+    max-width: 420px;
+}
+
+.container {
+    box-shadow: 2px 2px 3px 3px black;
+    background-color: white;
+}
+
+#photo {
+    width: calc(100% - 10px);
+    margin: 5px;
+    object-fit: cover;
+}
+
+.box {
+    height: 20px;
+    width: 20px;
+}
+
+#colorbox {
+    display: none;
+}
+
+#desc{
+    padding: 5px 10px 20px 10px;
+}
+
+#desc h2 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+#desc p {
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.food {
+    display: flex;
+    align-items: center;
+}
+
+.colorName {
+    margin: 0 5px;
+}
+
+.form {
+    margin: 20px 0;
+}
+
+.link {
+    margin: 10px 0;
+    padding: 10px;
+    background: #d23c77;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+
+    border-radius: 10px;
+}
+
+.inputbox {
+    position: relative;
+    text-align: center;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.inputbox input {
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    
+
+    border: 0;
+    opacity: 0;
+    background: #d23c77;
+    position: absolute;
+}
